@@ -4,7 +4,7 @@ import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 
 export default function PaintFAQSection() {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faqs = [
     {
@@ -29,7 +29,7 @@ export default function PaintFAQSection() {
     },
   ];
 
-  const toggleAccordion = (index: any) => {
+  const toggleAccordion = (index: number | null ) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 

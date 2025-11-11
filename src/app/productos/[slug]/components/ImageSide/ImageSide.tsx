@@ -1,6 +1,5 @@
 'use client';
 import { ProductInterface } from "../../../../../lib/ProductInterface";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 import React, { useState } from "react";
 
 interface Props {
@@ -8,7 +7,6 @@ interface Props {
 }
 
 export default function ImageSide({product}: Props) {
-    const [selectedImage, setSelectedImage] = useState(0);
 
  
   return (

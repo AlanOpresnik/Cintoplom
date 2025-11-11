@@ -16,9 +16,6 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Cintoplom | Pinturas y Revestimientos desde 1962",
-  icons: {
-    icon: "https://res.cloudinary.com/dbgt948uj/image/upload/v1760642488/CintoplomLatexMASTER__2_-removebg-preview_qdwqen.png",
-  },
   description:
     "Cintoplom es una empresa líder en pinturas, látex y revestimientos desde 1962. Ofrecemos soluciones de alta calidad para interiores, exteriores e industriales. Innovación, durabilidad y color para cada proyecto.",
   keywords: [
@@ -68,8 +65,8 @@ export const metadata: Metadata = {
   },
   themeColor: "#004C91",
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: "https://res.cloudinary.com/dbgt948uj/image/upload/v1760642488/CintoplomLatexMASTER__2_-removebg-preview_qdwqen.png",
+    apple: "https://res.cloudinary.com/dbgt948uj/image/upload/v1760642488/CintoplomLatexMASTER__2_-removebg-preview_qdwqen.png",
   },
   category: "Pinturas y Revestimientos",
   other: {

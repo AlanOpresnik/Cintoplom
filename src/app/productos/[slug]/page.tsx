@@ -1,4 +1,4 @@
-import { CheckCircle, Droplet, Shield, Clock, Palette } from "lucide-react";
+import { Droplet, Shield, Clock, Palette } from "lucide-react";
 import ImageSide from "./components/ImageSide/ImageSide";
 import ProductInfo from "./components/ProductInfo/ProductInfo";
 import ActionButtons from "./components/ActionButtons/ActionButtons";

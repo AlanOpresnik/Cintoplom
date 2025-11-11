@@ -16,7 +16,7 @@ export default function OurExperience() {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [isAutoPlaying, products.length]);
+  }, [isAutoPlaying]);
 
   const handlePrev = () => {
     setIsAutoPlaying(false);

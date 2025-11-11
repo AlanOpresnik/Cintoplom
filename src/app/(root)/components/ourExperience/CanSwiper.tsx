@@ -14,7 +14,6 @@ interface Props {
 export default function CanSwiper({
   products,
   activeIndex,
-  isAutoPlaying,
   setIsAutoPlaying,
   setActiveIndex,
 }: Props) {

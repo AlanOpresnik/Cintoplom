@@ -1,6 +1,5 @@
 "use client";
 import { ProductInterface } from "../../../../../lib/ProductInterface";
-import { Star } from "lucide-react";
 import React, { useState } from "react";
 
 interface Props {
@@ -10,7 +9,6 @@ interface Props {
 export default function ProductInfo({product} : Props) {
   const [selectedColor, setSelectedColor] = useState("blanco");
   const [selectedSize, setSelectedSize] = useState("4L");
-  const [quantity, setQuantity] = useState(1);
 
   const colors = [
     { name: "blanco", hex: "#FFFFFF", border: true },
