@@ -1,0 +1,48 @@
+export const products = [
+  {
+    id: 1,
+    name: "Esmalte Premium",
+    slug: "esmalte-premium",
+    color: "bg-orange-400",
+    img: "https://res.cloudinary.com/dbgt948uj/image/upload/v1760642488/CintoplomLatexMASTER__2_-removebg-preview_qdwqen.png",
+    label: "Membrana Poliuretano",
+    labelColor: "bg-orange-500",
+    
+  },
+  {
+    id: 2,
+    name: "Membrana Poliuretano",
+    slug: "membrana-poliuretano",
+    color: "bg-yellow-500",
+    img: "https://res.cloudinary.com/dbgt948uj/image/upload/v1760641127/CintoflexMASTERfrentes__3_-removebg-preview_hxrdjk.png",
+    label: "Membrana Poliuretano",
+    labelColor: "bg-yellow-500",
+  },
+  {
+    id: 3,
+    name: "Latex Interior/Exterior",
+    slug: "latex-interior-exterior",
+    color: "bg-zinc-800",
+    label: "Latex lavable interior y exterior",
+    img: "https://res.cloudinary.com/dbgt948uj/image/upload/v1760642549/CintotexMASTER__4_-removebg-preview_txvahx.png",
+    labelColor: "bg-zinc-800",
+  },
+  {
+    id: 4,
+    name: "Esmalte Sintético",
+    slug: "esmalte-sintetico",
+    color: "bg-yellow-500",
+    img: "https://res.cloudinary.com/dbgt948uj/image/upload/v1760642630/CintoflexMASTERtechos__1_-removebg-preview_z58bmv.png",
+    label: "Membrana Poliuretano",
+    labelColor: "bg-yellow-500",
+  },
+  {
+    id: 5,
+    name: "Pintura Amarilla",
+    slug: "pintura-amarilla",
+    color: "bg-blue-500",
+    img: "https://res.cloudinary.com/dbgt948uj/image/upload/v1760642786/CintoplomULTRAlatex__4_-removebg-preview_hvsjer.png",
+    label: "Latex lavable interior y exterior",
+    labelColor: "bg-blue-500",
+  },
+];
