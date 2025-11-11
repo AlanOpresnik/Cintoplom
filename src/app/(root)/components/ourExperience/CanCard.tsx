@@ -1,4 +1,4 @@
-import { ProductInterface } from "@/lib/ProductInterface";
+import { ProductInterface } from "../../../../lib/ProductInterface";
 import Image from "next/image";
 import React from "react";
 

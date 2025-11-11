@@ -1,6 +1,6 @@
 "use client";
 
-import { products } from "@/lib/product-data-mock";
+import { products } from "../../../lib/product-data-mock";
 import Image from "next/image";
 import Link from "next/link";
 import ProductCard from "./ProductCard/ProductCard";

@@ -2,7 +2,7 @@ import { CheckCircle, Droplet, Shield, Clock, Palette } from "lucide-react";
 import ImageSide from "./components/ImageSide/ImageSide";
 import ProductInfo from "./components/ProductInfo/ProductInfo";
 import ActionButtons from "./components/ActionButtons/ActionButtons";
-import { products } from "@/lib/product-data-mock";
+import { products } from "../../../lib/product-data-mock";
 import TecnicalDetails from "./components/TecnicalDetails/TecnicalDetails";
 
 export default async function ProductDetailPage({

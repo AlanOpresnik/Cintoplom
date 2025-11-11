@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/Components/Navbar/Navbar";
-import Footer from "@/Components/Footer/Footer";
+import Navbar from "../Components/Navbar/Navbar";
+import Footer from "../Components/Footer/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Cintoplom | Pinturas y Revestimientos desde 1962",
+  icons: {
+    icon: "https://res.cloudinary.com/dbgt948uj/image/upload/v1760642488/CintoplomLatexMASTER__2_-removebg-preview_qdwqen.png",
+  },
   description:
     "Cintoplom es una empresa líder en pinturas, látex y revestimientos desde 1962. Ofrecemos soluciones de alta calidad para interiores, exteriores e industriales. Innovación, durabilidad y color para cada proyecto.",
   keywords: [
@@ -29,6 +32,7 @@ export const metadata: Metadata = {
     "pinturas desde 1962",
     "productos para pintura",
   ],
+  
   authors: [{ name: "Cintoplom" }],
   creator: "Cintoplom",
   publisher: "Cintoplom",
@@ -36,6 +40,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.cintoplom.ar",
   },
+  
   openGraph: {
     title: "Cintoplom | Pinturas y Revestimientos desde 1962",
     description:

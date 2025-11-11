@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import CanSwiper from "./CanSwiper";
-import { products } from "@/lib/product-data-mock";
+import { products } from "../../../../lib/product-data-mock";
 
 export default function OurExperience() {
   const [activeIndex, setActiveIndex] = useState(0);

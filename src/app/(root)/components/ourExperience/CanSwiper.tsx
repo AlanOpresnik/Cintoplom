@@ -1,5 +1,5 @@
 "use client";
-import { ProductInterface } from "@/lib/ProductInterface";
+import { ProductInterface } from "../../../../lib/ProductInterface";
 import React, { useState } from "react";
 import CanCard from "./CanCard";
 

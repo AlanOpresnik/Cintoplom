@@ -1,5 +1,5 @@
 'use client';
-import { ProductInterface } from "@/lib/ProductInterface";
+import { ProductInterface } from "../../../../../lib/ProductInterface";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import React, { useState } from "react";
 
