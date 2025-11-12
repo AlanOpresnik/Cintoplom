@@ -2,6 +2,7 @@ export const products = [
   {
     id: 1,
     name: "Esmalte Premium",
+    brand: 'Cintoplom',
     slug: "esmalte-premium",
     color: "bg-orange-400",
     img: "https://res.cloudinary.com/dbgt948uj/image/upload/v1760642488/CintoplomLatexMASTER__2_-removebg-preview_qdwqen.png",
@@ -12,6 +13,7 @@ export const products = [
   {
     id: 2,
     name: "Membrana Poliuretano",
+    brand: 'Cintoflex',
     slug: "membrana-poliuretano",
     color: "bg-yellow-500",
     img: "https://res.cloudinary.com/dbgt948uj/image/upload/v1760641127/CintoflexMASTERfrentes__3_-removebg-preview_hxrdjk.png",
@@ -21,6 +23,7 @@ export const products = [
   {
     id: 3,
     name: "Latex Interior/Exterior",
+    brand: 'Cintotex',
     slug: "latex-interior-exterior",
     color: "bg-zinc-800",
     label: "Latex lavable interior y exterior",
@@ -30,6 +33,7 @@ export const products = [
   {
     id: 4,
     name: "Esmalte Sintético",
+    brand: 'Cintoflex',
     slug: "esmalte-sintetico",
     color: "bg-yellow-500",
     img: "https://res.cloudinary.com/dbgt948uj/image/upload/v1760642630/CintoflexMASTERtechos__1_-removebg-preview_z58bmv.png",
@@ -40,6 +44,7 @@ export const products = [
     id: 5,
     name: "Pintura Amarilla",
     slug: "pintura-amarilla",
+    brand: 'Cintoflex',
     color: "bg-blue-500",
     img: "https://res.cloudinary.com/dbgt948uj/image/upload/v1760642786/CintoplomULTRAlatex__4_-removebg-preview_hvsjer.png",
     label: "Latex lavable interior y exterior",

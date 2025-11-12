@@ -4,6 +4,7 @@ export interface ProductInterface {
   slug: string;
   color: string;
   label?: string;
+  brand: string;
   labelColor?: string;
   img?: string;
 };

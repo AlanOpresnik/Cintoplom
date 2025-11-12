@@ -3,10 +3,10 @@ import { ProductInterface } from "../../../../../lib/ProductInterface";
 import React, { useState } from "react";
 
 interface Props {
-    product: ProductInterface;
+  product: ProductInterface;
 }
 
-export default function ProductInfo({product} : Props) {
+export default function ProductInfo({ product }: Props) {
   const [selectedColor, setSelectedColor] = useState("blanco");
   const [selectedSize, setSelectedSize] = useState("4L");
 
@@ -26,7 +26,10 @@ export default function ProductInfo({product} : Props) {
     <div className="space-y-6">
       <div>
         <div className="flex items-center gap-2 mb-2">
-          <span className="bg-red-900 text-white text-xs font-semibold px-3 py-1 rounded-full">
+          <span className="bg-orange-400 text-white text-xs font-semibold px-3 py-1 rounded-full">
+            {product.brand}
+          </span>
+          <span className="bg-primary text-white text-xs font-semibold px-3 py-1 rounded-full">
             PROFESIONAL
           </span>
           <span className="bg-yellow-400 text-red-900 text-xs font-semibold px-3 py-1 rounded-full">
@@ -36,8 +39,6 @@ export default function ProductInfo({product} : Props) {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
           {product.name}
         </h1>
-
-        <p className="text-green-600 font-semibold mt-2">¡Stock disponible!</p>
       </div>
 
       <div className="border-t border-b border-gray-200 py-6 space-y-5">
@@ -97,7 +98,6 @@ export default function ProductInfo({product} : Props) {
             ))}
           </div>
         </div>
-
       </div>
     </div>
   );
