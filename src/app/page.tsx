@@ -24,7 +24,7 @@ export default function Home() {
       </section>
       <section className="py-24 ">
         <div className="mb-6">
-          <div className="flex justify-center">
+          <div className="flex justify-center w-full">
             <p className="text-6xl font-bold">Nuestras <span className="text-primary">Marcas</span></p>
           </div>
         </div>
