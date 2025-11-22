@@ -22,10 +22,10 @@ export default function Home() {
       <section>
         <PaintFAQSection />
       </section>
-      <section className="py-24 ">
+      <section className="py-24 flex justify-center flex-col items-center w-full ">
         <div className="mb-6">
           <div className="flex justify-center w-full">
-            <p className="text-6xl font-bold">Nuestras <span className="text-primary">Marcas</span></p>
+            <p className="text-6xl text-center font-bold">Nuestras <span className="text-primary text-center">Marcas</span></p>
           </div>
         </div>
         <InfiniteCarrusel />

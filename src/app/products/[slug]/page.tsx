@@ -4,6 +4,33 @@ import ProductInfo from "./components/ProductInfo/ProductInfo";
 import ActionButtons from "./components/ActionButtons/ActionButtons";
 import { products } from "../../../lib/product-data-mock";
 import TecnicalDetails from "./components/TecnicalDetails/TecnicalDetails";
+import { Metadata } from "next";
+
+
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> }
+): Promise<Metadata> {
+  const resolvedParams = await params;
+  const product = products.find((p) => p.slug === resolvedParams.slug);
+
+  if (!product) {
+    return {
+      title: "Producto no encontrado | Cintoplom",
+      description: "El producto que buscas no existe.",
+    };
+  }
+
+  return {
+    title: `${product.name} | Cintoplom`,
+    description: product.label ?? "Producto de alta calidad Cintoplom.",
+    openGraph: {
+      title: `${product.name} | Cintoplom`,
+      description: product.label ?? "Producto de alta calidad.",
+      images: product.img ? [product.img] : [],
+      type: "website",
+    },
+  };
+}
 
 export default async function ProductDetailPage({
   params,
@@ -19,6 +46,7 @@ export default async function ProductDetailPage({
   }
 
   console.log(product);
+  
 
   const features = [
     { icon: Droplet, title: "Secado Rápido", desc: "2-4 horas entre manos" },

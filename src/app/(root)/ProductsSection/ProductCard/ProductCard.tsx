@@ -27,7 +27,7 @@ export default function ProductCard({producto}: Props) {
       <p className="text-sm text-gray-300 mb-4">{producto.label}</p>
 
       <Link
-        href={`/productos/${producto.slug}`}
+        href={`/products/${producto.slug}`}
         className="bg-red-700 hover:bg-red-800 transition px-5 py-2 rounded-full text-sm font-medium"
       >
         Ver detalles del producto

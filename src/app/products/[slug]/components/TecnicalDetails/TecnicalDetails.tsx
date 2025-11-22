@@ -29,10 +29,7 @@ export default function TecnicalDetails() {
           <span className="font-semibold text-gray-700">Base:</span>
           <span className="text-gray-900">Acrílica al agua</span>
         </div>
-        <div className="flex justify-between py-2 border-b border-gray-200">
-          <span className="font-semibold text-gray-700">Garantía:</span>
-          <span className="text-gray-900">5 años</span>
-        </div>
+       
       </div>
     </div>
   );

@@ -13,8 +13,7 @@ import Image from "next/image";
 
 const links = [
   { name: "Inicio", href: "/" },
-  { name: "Calculadora", href: "/calculator" },
-  { name: "Pinturas", href: "/paints" },
+  { name: "Pinturas", href: "/allProducts" },
   { name: "Aplicar un producto", href: "/applyProduct" },
   { name: "Informacion", href: "/information" },
   { name: "Contacto", href: "/contact" },
