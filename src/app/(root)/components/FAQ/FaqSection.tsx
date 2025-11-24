@@ -53,10 +53,10 @@ export default function PaintFAQSection() {
         {/* Right Side - FAQ Content */}
         <div className="col-span-2 flex max-w-5xl flex-col items-center justify-cente order-1 lg:order-2 space-y-6">
           <div className="space-y-3">
-            <h1 className="text-4xl text-center sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
+            <h5 className="text-4xl text-center sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
               Preguntas{" "}
               <span className="text-yellow-300 text-center">que siempre se hacen</span>
-            </h1>
+            </h5>
             <p className="text-red-100 text-center text-base sm:text-lg ">
               Resolvemos las dudas más comunes sobre nuestras pinturas
               profesionales y su aplicación correcta.
@@ -71,6 +71,7 @@ export default function PaintFAQSection() {
                 className="bg-white/10 backdrop-blur-sm rounded-lg overflow-hidden transition-all duration-300 hover:bg-white/15"
               >
                 <button
+                aria-label="ver toda la pregunta"
                   onClick={() => toggleAccordion(index)}
                   className="w-full px-5 py-4 flex items-center justify-between text-left group"
                 >
@@ -103,7 +104,7 @@ export default function PaintFAQSection() {
             <p className="text-white text-lg mb-4">
               ¿No encontraste lo que buscabas?
             </p>
-            <button className="bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">
+            <button aria-label="boton contactar soporte" className="bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">
               Contactar al soporte
             </button>
           </div>

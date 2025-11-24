@@ -37,7 +37,7 @@ export default function Footer() {
           <h2 className="text-6xl font-semibold">{footerData.brand.name}</h2>
           <p className="mt-1 text-2xl">{footerData.brand.slogan}</p>
           <Link href={footerData.brand.contactLink}>
-            <Button className="mt-4 bg-gray-100 w-1/2 rounded-full border-none text-black hover:bg-gray-200 border border-blue-500">
+            <Button aria-label="Contactar boton" className="mt-4 bg-gray-100 w-1/2 rounded-full border-none text-black hover:bg-gray-200 border border-blue-500">
               Contactar
             </Button>
           </Link>
@@ -49,7 +49,7 @@ export default function Footer() {
           <ul className="space-y-1 text-sm">
             {footerData.productos.map((item, i) => (
               <li className="text-center" key={i}>
-                <Link href={item.link} className="hover:underline text-lg">
+                <Link aria-label={item.name} href={item.link} className="hover:underline text-lg">
                   {item.name}
                 </Link>
               </li>
@@ -63,7 +63,7 @@ export default function Footer() {
           <ul className="space-y-1 text-sm">
             {footerData.navegacion.map((item, i) => (
               <li className="text-center" key={i}>
-                <Link href={item.link} className="hover:underline text-lg
+                <Link aria-label={item.name} href={item.link} className="hover:underline text-lg
                 ">
                   {item.name}
                 </Link>

@@ -23,7 +23,7 @@ export default function NavbarDesktop() {
           {links.map((link) => (
             <ul key={link.name}>
               <li>
-                <a href={link.href}>{link.name}</a>
+                <a aria-label={link.name} href={link.href}>{link.name}</a>
               </li>
             </ul>
           ))}

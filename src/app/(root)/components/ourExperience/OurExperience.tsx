@@ -80,7 +80,7 @@ export default function OurExperience() {
         />
            {/* CTA Button */}
       <div className=" flex justify-center w-full absolute bottom-0 mb-12  z-10">
-        <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105">
+        <button aria-label="ver todos los productos" className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105">
           Ver todos los productos
         </button>
       </div>
@@ -89,12 +89,14 @@ export default function OurExperience() {
       {/* Navigation Buttons */}
       <div className="absolute hidden md:flex bottom-32 left-1/2 -translate-x-1/2  gap-4 z-50">
         <button
+        aria-label="Mover anterior"
           onClick={handlePrev}
           className="bg-white/20 hover:bg-white/30 text-white p-3 rounded-full backdrop-blur-sm transition-all"
         >
           <ChevronLeft size={24} />
         </button>
         <button
+        aria-label="mover siguiente"
           onClick={handleNext}
           className="bg-white/20 hover:bg-white/30 text-white p-3 rounded-full backdrop-blur-sm transition-all"
         >
@@ -108,6 +110,7 @@ export default function OurExperience() {
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
         {products.map((_, index) => (
           <button
+          aria-label="indicadores"
             key={index}
             onClick={() => {
               setIsAutoPlaying(false);

@@ -31,7 +31,7 @@ export default function NavbarMobile() {
           height={50}
         />
         <SheetTrigger asChild>
-          <button className="p-2 border rounded-md">
+          <button aria-label="Menu" className="p-2 border rounded-md">
             <Menu size={24} />
           </button>
         </SheetTrigger>
@@ -50,7 +50,7 @@ export default function NavbarMobile() {
         <ul className="mt-8 px-2 space-y-4">
           {links.map((link) => (
             <li key={link.name}>
-              <Link href={link.href} className="text-lg font-medium">
+              <Link href={link.href} aria-label={link.name} className="text-lg font-medium">
                 {link.name}
               </Link>
             </li>
