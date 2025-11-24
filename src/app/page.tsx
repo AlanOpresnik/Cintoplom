@@ -6,7 +6,7 @@ import InfiniteCarrusel from "./(root)/components/InfiniteCarrusel/InfiniteCarru
 export default function Home() {
   return (
     <>
-      <header className="overflow-hidden">
+      <header role="main" className="overflow-hidden">
         <Header />
       </header>
       <section>
