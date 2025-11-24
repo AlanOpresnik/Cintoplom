@@ -13,6 +13,7 @@ export default function NavbarDesktop() {
         <div>
           <Image
             src="/logo/logo-cintoplom.png"
+            fetchPriority='high'
             alt="Cintoplom Logo"
             width={280}
             height={400}

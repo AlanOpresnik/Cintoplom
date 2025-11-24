@@ -21,9 +21,10 @@ const links = [
 
 export default function NavbarMobile() {
   return (
-    <Sheet  >
-      <div  className="flex  justify-between px-6 p-4 border-b-4 border-b-primary items-center">
+    <Sheet>
+      <div className="flex  justify-between px-6 p-4 border-b-4 border-b-primary items-center">
         <Image
+          fetchPriority="high"
           src="/logo/logo-cintoplom.png"
           alt="Cintoplom Logo"
           width={200}
