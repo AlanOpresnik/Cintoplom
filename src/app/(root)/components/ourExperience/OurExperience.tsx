@@ -70,7 +70,7 @@ export default function OurExperience() {
       </div>
 
       {/* Carousel Container */}
-      <div className="relative w-full h-[400px] md:h-[600px] ">
+      <div className="relative w-full h-[400px] md:h-[700px] ">
         <CanSwiper
           products={products}
           activeIndex={activeIndex}
