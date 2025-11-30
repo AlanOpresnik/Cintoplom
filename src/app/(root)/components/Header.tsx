@@ -10,11 +10,11 @@ export default function Header() {
         autoPlay
         playsInline
         muted
-        data-desktop-vid="https://res.cloudinary.com/dbgt948uj/video/upload/v1760548807/whatsapp-video-2025-09-23-at-55306-am-1_Nqz6jURe_x0ppn5.mp4"
-        data-mobile-vid="https://res.cloudinary.com/dbgt948uj/video/upload/v1760548807/whatsapp-video-2025-09-23-at-55306-am-1_Nqz6jURe_x0ppn5.mp4"
+        data-desktop-vid="https://res.cloudinary.com/dbgt948uj/video/upload/v1764530361/Dise%C3%B1o_sin_t%C3%ADtulo_qnpeqx.mp4"
+        data-mobile-vid="https://res.cloudinary.com/dbgt948uj/video/upload/v1764530361/Dise%C3%B1o_sin_t%C3%ADtulo_qnpeqx.mp4"
       >
         <source
-          src="https://res.cloudinary.com/dbgt948uj/video/upload/v1760548807/whatsapp-video-2025-09-23-at-55306-am-1_Nqz6jURe_x0ppn5.mp4"
+          src="https://res.cloudinary.com/dbgt948uj/video/upload/v1764530361/Dise%C3%B1o_sin_t%C3%ADtulo_qnpeqx.mp4"
           type="video/mp4"
         />
       </video>
