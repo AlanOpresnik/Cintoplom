@@ -3,11 +3,17 @@ import OurExperience from "./(root)/components/ourExperience/OurExperience";
 import ProductsSection from "./(root)/ProductsSection/ProductsSection";
 import PaintFAQSection from "./(root)/components/FAQ/FaqSection";
 import InfiniteCarrusel from "./(root)/components/InfiniteCarrusel/InfiniteCarrusel";
+import HeaderMobile from "./(root)/components/HeaderMobile";
 export default function Home() {
   return (
     <>
       <header role="main" className="overflow-hidden">
-        <Header />
+        <div className="hidden md:block">
+          <Header />
+        </div>
+        <div className="md:hidden">
+          <HeaderMobile />
+        </div>
       </header>
       <section>
         <div>
@@ -25,12 +31,13 @@ export default function Home() {
       <section className="py-24 flex justify-center flex-col items-center w-full ">
         <div className="mb-6">
           <div className="flex justify-center w-full">
-            <p className="text-6xl text-center font-bold">Nuestras <span className="text-primary text-center">Marcas</span></p>
+            <p className="text-6xl text-center font-bold">
+              Nuestras <span className="text-primary text-center">Marcas</span>
+            </p>
           </div>
         </div>
         <InfiniteCarrusel />
       </section>
- 
     </>
   );
 }
