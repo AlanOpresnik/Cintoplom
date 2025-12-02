@@ -79,11 +79,7 @@ export default function OurExperience() {
           setIsAutoPlaying={setIsAutoPlaying}
         />
            {/* CTA Button */}
-      <div className=" flex justify-center w-full absolute bottom-0 mb-12  z-10">
-        <button aria-label="ver todos los productos" className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105">
-          Ver todos los productos
-        </button>
-      </div>
+
       </div>
 
       {/* Navigation Buttons */}
